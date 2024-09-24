@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0A2925;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 1.5rem;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+.hero {
+    background-color: #9EBEA9;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+}
+
+.hero-content p {
+    margin: 1rem 0;
+}
+
+.btn {
+    background-color: #0A2925;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 300px;
+}
+
+.how-it-works {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-icon {
+    background-color: #0A2925;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.products {
+    background-color: #F3F3F3;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.product {
+    background-color: white;
+    padding: 1.5rem;
+    width: 45%;
+    border-radius: 8px;
+}
+
+.latest-apis {
+    background-color: #D2B585;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.api-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.api-card {
+    background-color: white;
+    padding: 1.5rem;
+    width: 40%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #F3F3F3;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+footer a {
+    color: #0A2925;
+    text-decoration: none;
+}
